@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font: Helvetica Neue, Helvetica, sans-serif, Arial;
+  font: "Helvetica Neue", Helvetica, sans-serif, Arial;
   margin: 0;
   text-anchor: end;
   /* background-color: rgb(255, 255, 255); */
