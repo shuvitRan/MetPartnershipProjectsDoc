@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Buddhas At the Met Documentation</title>
+  <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+
+  <div class="titleBox">
+    <div class="title">
+      <h3>Documentation:</h3>
+      <div class="header">
+        <h1>BUDDHAS AT THE MET</h1>
+        <p>A data visualization by <a href="http://danranpresent.com" target="_blank">Dan Ran</a></p>
+      </div>
+      <p><br>Buddhas at the Met is a data visualization project studying the facial features of Met's collections of buddha sculptures, through computer vision imaging processing. This project seeks to understand how buddha sculptures reflect the religion's process of morphing and changing to adapt to different countries and cultures. </p>
+      <a href="https://shuvitran.github.io/MajorStudio1/Project2-qualitative/FrontEnd/" target="_blank"class="square_btn">check out the project</a>
+
+      <div id="dataSource">
+        <p>Data Source:</p>
+
+            <a href="https://metmuseum.org/" target="_blank"><div id="metLogo"></div></a>
+
+      </div>
+    </div>
+
+
+  </div>
+
+<div class="">
+  <iframe src="https://player.vimeo.com/video/379099271?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="330" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+</div>
+
+
+
+<div class="process">
+<hr>
+    <div class="header">
+      <h2>Process</h2>
+  </div>
+
+  <div class="describeContainer2">
+
+<p>All the data of the Buddha sculptures and major images are requested from the Met's API. The facial data processing is conducted by Open-CV and Scikit-Image. </p>
+  <img src="assets/Tools.jpg" alt="Tools">
+
+  </div>
+
+  <div class="describeContainer2">
+    <p>Scikit-image's pixel process functions are used to enhance the images.</p>
+    <img src="assets/scikitImg.jpg" alt="Tools">
+
+  </div>
+
+  <div class="describeContainer">
+    <p>Open-CV is used to extract facial information from Buddhas' faces. 68 landmarks are extracted from each face. 211 out of 416 faces are successfully extracted. They are clustered in 12 different culture regions, covering the main areas that Buddhism is commonly practiced.</p>
+    <img src="assets/3dfaceslayer.png" alt="layers">
+  </div>
+
+  <div class="describeContainer1">
+    <p>Three different visualizations: face dots, lines & shapes, and face grid, are utilized to demonstrate and compare the facial features of Buddha sculptures.</p>
+    <img src="assets/ThreeTypes.jpg" alt="layers">
+  </div>
+
+<hr>
+
+  <h2>Steps:</h2>
+<ul class="a">
+  <li>Design & Sketch</li>
+  <li>Request Buddha sculptures' information and major images from the Met's API.</li>
+  <li>Clean the data. Find better images if the major images from the request are not frontal shoot.</li>
+  <li>Using Open-CV and Scikit-Image to process images.</li>
+  <li>Using Open-CV to extract facial information from the Buddha faces.</li>
+  <li>Front-end development with D3.js.</li>
+</ul>
+<p>
+<b>Partner:</b>  The Metropolitan Museum of Art <br>
+<b>Data Source:</b> The Met Collection API
+</p>
+
+
+</div>
+
+
+
+
+</body>
+
+
+
+</html>

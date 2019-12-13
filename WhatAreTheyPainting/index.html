@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>What Are They Painting?</title>
+<link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+
+  <div class="titleBox">
+    <div class="title">
+      <h3>Documentation:</h3>
+      <div class="header">
+
+        <h1>What Are They Painting?</h1>
+        <p>A data visualization by <a href="http://danranpresent.com" target="_blank">Dan Ran</a></p>
+      </div>
+      <p><br>An insight of Metropolitan Museum of Art's paintings collection. This is a data visualization of the top 10 tags of paintings from 9 countries/civilizations in four periods of time: before 1300 CE, 1300 CE – 1600 CE Renaissance in Europe, 1600 – 1900 covering the Enlightenment, and 1900 to today, the modern era. It gives you a close look at the changes in painting subjects throughout a country’s history and the differences between each country within the same time period. Due to the limitations of the data set, this visualization may not capable of representing the actual cultural differences between countries.  </p>
+      <a href="https://shuvitran.github.io/MajorStudio1/Project1-quantitative/" target="_blank" class="square_btn">check out the project</a>
+
+      <div id="dataSource">
+        <p>Data Source:</p>
+
+            <a href="https://metmuseum.org/" target="_blank"><div id="metLogo"></div></a>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+<div class="">
+  <iframe src="https://player.vimeo.com/video/378954055?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="330" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+</div>
+
+
+
+<div class="process">
+<hr>
+    <div class="header">
+      <h2>Behind the Scenes</h2>
+  </div>
+
+
+  <div class="describeContainer2">
+    <p>Does the difference between cultures determine different painting subjects? Do painting subjects alter with time? How do the changes of subjects reflect the history of the country? In a modern era, are our subjects growing more and more alike? These are some of my initial questions, and meanwhile, what this project tries to answer.<br><br> On the right are some early sketches and prototypes. </p>
+    <img src="assets/describe1.png" alt="sketchs">
+
+  </div>
+
+  <div class="describeContainer2">
+    <p>The data used in this project is from Met's open-source CSV file.
+Since different departments at Met have different recording styles, the challenge of this project is to parse, extract and regroup the data from the CSV file. Python and Pandas are used to sort and regroup data from CSV. The data is reconstructed and visualized by using Javascript and D3.js</p>
+    <img src="assets/describe2.png" alt="tech">
+  </div>
+
+  <div class="describeContainer1">
+    <p>The result is very fascinating. There are many interesting trends you will discover by looking at this visualization. Check it out by yourself. You can click on the tag you want to highlight it.  </p>
+    <img src="assets/describe3.jpg" alt="layers">
+  </div>
+
+<hr>
+
+  <h2>Steps:</h2>
+<ul class="a">
+  <li>Design & Sketch</li>
+  <li>Using the Met CSV Dataset from the Met's API.</li>
+  <li>Clean the dataset and find the painting tag information by using Python.</li>
+  <li>Front-end development with D3.js.</li>
+</ul>
+<p>
+<b>Partner:</b>  The Metropolitan Museum of Art <br>
+<b>Data Source:</b> The Met Collection API
+</p>
+
+
+</div>
+
+
+
+
+</body>
+
+
+
+</html>

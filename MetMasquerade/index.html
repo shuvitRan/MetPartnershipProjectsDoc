@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Met Masquerade Doc</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,900|Noto+Serif+JP:400,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="master.css">
+
+</head>
+
+<body>
+
+  <div class="titleBox">
+    <div class="title">
+        <h3>Documentation:</h3>
+      <div class="header">
+          <!-- <h3>Documentation:</h3> -->
+        <h1>Met Masquerade</h1>
+        <p>An AR Experience by <a href="http://danranpresent.com" target="_blank">Dan Ran</a></p>
+      </div>
+      <p><br>This is an AR interactive experience prototype based on the Met’s Mask collection. It’s a multimedia AR experience. The user can experience a Met Masquerade through mobile phone, desktop, or even a large exhibition screen. This app will find a random mask from the Met's collection and put it on the face that the camera detects. The user can save photos or record a video of it. The user will also be able to learn the background information about the Mask they wear.  </p>
+
+      <div id="dataSource">
+        <p>Data Source:</p>
+
+            <a href="https://metmuseum.org/" target="_blank"><div id="metLogo"></div></a>
+
+      </div>
+
+    </div>
+    </div>
+
+
+<div class="">
+  <iframe src="https://player.vimeo.com/video/378957942?autoplay=0&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+</div>
+
+
+
+<div class="process">
+<hr>
+    <div class="header">
+      <h2>Behind the Scenes</h2>
+  </div>
+
+  <div class="describeContainer2">
+
+<p>The Early sketches show the possibility of this project.</p>
+  <img src="assets/MetMasqsketches.jpg" alt="sketches">
+
+  </div>
+
+  <div class="describeContainer">
+    <p>All the mask data are requested from the Met's API, and the images are processed in photoshop. 3D models are made for each mask in Maya, and the texture were added later in DeepAR Studio.</p>
+    <img src="assets/3dsoftware.jpg" alt="3dsoftware">
+
+  </div>
+
+  <div class="describeContainer">
+    <p>In order to make realistic AR mask, UV testing in Maya is essential.</p>
+    <img src="assets/uvTestinMaya.jpg" alt="layers">
+  </div>
+
+
+  <div class="describeContainer2">
+    <p>This web-based application is made by using DeepAR SDK. It is capable of tracking multi faces simultaneously. By swiping left or right, the user can try on different masks. They can also take a selfie, or check out and learn the detail information about the antique masks they wear. </p>
+    <img src="assets/masqueradeapp.jpg" alt="layers">
+  </div>
+
+<hr>
+  <h2>Steps:</h2>
+<ul class="a">
+  <li>Design & Sketch.</li>
+  <li>Request Masks from the Met's API.</li>
+  <li>3d Modeling with Maya.</li>
+  <li>AR model implementation with DeepAR Studio. </li>
+  <li>Redesign & Sketch.</li>
+  <li>Application development with DeepAR SDK/D3.js/Hammer.js.</li>
+</ul>
+<p>
+<b>Partner:</b>  The Metropolitan Museum of Art <br>
+<b>Data Source:</b> The Met Collection API
+</p>
+
+</div>
+
+
+</body>
+
+
+
+</html>
