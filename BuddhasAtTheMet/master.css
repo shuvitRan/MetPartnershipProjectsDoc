@@ -85,13 +85,15 @@ a:link {
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  /* background-size: cover, contain; */
-  background-size: contain,cover;
+  background-size: cover, contain;
+  /* background-size: contain,cover; */
+  background-color: #f7f7f7;
+
 }
 
 .header h1 {
-  background-color: white;
-  background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(247, 247, 247,0.5);
+  /* background-color: rgb(255, 255, 255, 0.5); */
   display: inline-block;
   font-size: 5vw;
   margin: 0px 0px 0px 0px;
@@ -116,9 +118,9 @@ a:visited {
 }
 
 .title p {
+    background-color: rgb(247, 247, 247,0.5);
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  background-color: rgb(255, 255, 255, 0.5);
   /* position: absolute; */
   width: 50vw;
   font-size: 14pt;
