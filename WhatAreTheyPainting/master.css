@@ -87,18 +87,24 @@ a:link {
   /* z-index: -1; */
   color: white;
 
+  background-image: url("assets/headerPaintingtags2.jpg");
+  position: relative;
+  /* max-width: 100%; */
+  background-attachment:  fixed;
+  background-position:  top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .title {
-  background-image: url("assets/headerPaintingtags2.jpg");
-  padding: 10%;
+padding: 10%;
+
   position: relative;
   /* max-width: 100%; */
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: black;
+
+  /* background-color: black; */
+    /* padding: 10%; */
   /* background-size:  auto; */
 }
 
